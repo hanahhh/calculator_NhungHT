@@ -2,5 +2,5 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@android:drawable/ic_input_delete"
         android:width="40dp"
-        android:height="40dp"/>
+        android:height="40dp" />
 </selector>

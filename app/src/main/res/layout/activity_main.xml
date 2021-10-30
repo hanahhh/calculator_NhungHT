@@ -29,7 +29,7 @@
                 android:background="@drawable/borderdif"
                 android:onClick="CE_BTN"
                 android:text="@string/clear_one"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
 
@@ -43,7 +43,7 @@
                 android:background="@drawable/borderdif"
                 android:onClick="C_BTN"
                 android:text="@string/clear"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
 
@@ -57,7 +57,7 @@
                 android:background="@drawable/borderdif"
                 android:onClick="divideBTN"
                 android:text="@string/divide"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
 
@@ -72,9 +72,10 @@
                 android:contentDescription="@string/backspace"
                 android:onClick="backspaceBTN"
 
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
-                app:srcCompat="@drawable/backspace" />
+                app:srcCompat="@drawable/backspace"
+                android:backgroundTint="#1D6977"/>
 
         </TableRow>
 
@@ -92,7 +93,7 @@
                 android:background="@drawable/border"
                 android:onClick="sevenBTN"
                 android:text="@string/seven"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
 
@@ -106,7 +107,7 @@
                 android:background="@drawable/border"
                 android:onClick="eightBTN"
                 android:text="@string/eight"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
 
@@ -120,7 +121,7 @@
                 android:background="@drawable/border"
                 android:onClick="nineBTN"
                 android:text="@string/nine"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
 
@@ -134,7 +135,7 @@
                 android:background="@drawable/borderdif"
                 android:onClick="multiplyBTN"
                 android:text="@string/multiply"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
         </TableRow>
@@ -153,7 +154,7 @@
                 android:background="@drawable/border"
                 android:onClick="fourBTN"
                 android:text="@string/four"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
 
@@ -167,7 +168,7 @@
                 android:background="@drawable/border"
                 android:onClick="fiveTBN"
                 android:text="@string/five"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
 
@@ -181,7 +182,7 @@
                 android:background="@drawable/border"
                 android:onClick="sixBTN"
                 android:text="@string/six"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
 
@@ -195,7 +196,7 @@
                 android:background="@drawable/borderdif"
                 android:onClick="minusBTN"
                 android:text="@string/minus"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
         </TableRow>
@@ -214,7 +215,7 @@
                 android:background="@drawable/border"
                 android:onClick="oneBTN"
                 android:text="@string/one"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
 
@@ -228,7 +229,7 @@
                 android:background="@drawable/border"
                 android:onClick="twoBTN"
                 android:text="@string/two"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
 
@@ -242,7 +243,7 @@
                 android:background="@drawable/border"
                 android:onClick="threeBTN"
                 android:text="@string/three"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
 
@@ -256,7 +257,7 @@
                 android:background="@drawable/borderdif"
                 android:onClick="addBTN"
                 android:text="@string/add"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
         </TableRow>
@@ -275,7 +276,7 @@
                 android:background="@drawable/border"
                 android:onClick="addMinusBTN"
                 android:text="@string/plus_minus"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
 
@@ -289,9 +290,9 @@
                 android:background="@drawable/border"
                 android:onClick="zeroBTN"
                 android:text="@string/zero"
-                android:textColor="#FFFFFF"
                 android:textSize="24sp"
-                app:strokeColor="#000000" />
+                app:strokeColor="#000000"
+                android:textColor="#000000" />
 
             <Button
                 android:id="@+id/point"
@@ -303,7 +304,7 @@
                 android:background="@drawable/border"
                 android:onClick="pointBTN"
                 android:text="@string/point"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="24sp"
                 app:strokeColor="#000000" />
 
@@ -319,7 +320,8 @@
                 android:text="@string/equal"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp"
-                app:strokeColor="#000000" />
+                app:strokeColor="#000000"
+                android:backgroundTint="#1D6977"/>
         </TableRow>
     </TableLayout>
 
