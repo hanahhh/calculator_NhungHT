@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         updateText("9");
     }
     public void multiplyBTN(View view){
-        updateCount("x");
+        updateCount("*");
     }
     public void fourBTN(View view){
         updateText("4");
