@@ -26,7 +26,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void updateText(String strToAdd){
-        str.append(strToAdd);
+        if(strToAdd == "+/-"){
+            str.insert(0, "- ");
+        } else {
+            str.append(strToAdd);
+        }
         result.setText(str);
     }
     private void updateCount(String strToAdd){
@@ -92,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         updateCount("+");
     }
     public void addMinusBTN(View view){
-        updateCount("+/-");
+        updateText("+/-");
     }
     public void zeroBTN(View view){
         updateText("0");
